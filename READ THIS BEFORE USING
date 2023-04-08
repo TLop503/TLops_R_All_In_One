@@ -1,0 +1,24 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+**Instructions:**
+
+1.  Drag Troys_All_In_One.R into the files window on the bottom right of
+    the screen Open the file, it will appear in the top-left of your
+    screen
+
+2.  Make sure you have the openintro and tidyverse packages downloaded
+
+    -   To download these, use `install.packages(name)` in the console
+
+        -   Wait for the first to finish downloading before starting the
+            second
+
+3.  Change line 10 through 18 as needed to load in your data Make sure
+    to delete or edit the defaults
+
+4.  To run the script, use `ctrl+A` to highlight everything in the
+    script, and then press `ctrl+enter`
