@@ -1,2 +1,7 @@
 Drag Troys_All_In_One.R into the files window on the bottom right of the screen
-Edit line <TODO> to reflect the location of your data
+Open the file, it will appear in the top-left of your screen
+
+Edit lines 10 thru 16 to reflect the location of your data
+Make sure you have the openintro and tidyverse packages downloaded
+----to download these, use install.packages(name) in the console
+----wait for the first to finish downloading before starting the seccond

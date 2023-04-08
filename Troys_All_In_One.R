@@ -4,15 +4,19 @@
 #Protected by the Gnu General Public License v3.0
 
 # assumes you have installed tidyverse and openintro packages
-#loads libraries incase you haven't yet
-#please run the following commands before running this script
-#library(openintro)
-#library(tidyverse)
+library(openintro)
+library(tidyverse)
 
 #CHANGE THE FOLLOWING LINE TO REFLECT YOUR DATA SET
-#If you are using a vector just use your vector name
-#If you are using a column in a larger dataset use dataset$columnname
+# data(example) uncomment this line and plug in #data set name if it's a default
+# data <- read.csv("file_name.csv") #uncomment this line and plug in file name if needed
 
 var <- loan50$loan_amount
-#var <- example$coulumn_name
+#var <- example$column_name #uncomment this line and plug in info if needed
+#var <- vector_name #uncomment this line and plug in info if needed
+
 sd(var)
+mean(var)
+median(var)
+IQR(var)
+quantile(var)
