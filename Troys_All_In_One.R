@@ -7,13 +7,14 @@
 library(openintro)
 library(tidyverse)
 
-#CHANGE THE FOLLOWING LINE TO REFLECT YOUR DATA SET
-# data(example) uncomment this line and plug in #data set name if it's a default
+# CHANGE THE FOLLOWING LINES TO REFLECT YOUR DATA SET
+#LOADING IN DATA (If you haven't yet)
+# data(example) uncomment this line and plug in the name of your data if it's in a package
 # data <- read.csv("file_name.csv") #uncomment this line and plug in file name if needed
 
-var <- loan50$loan_amount
-#var <- example$column_name #uncomment this line and plug in info if needed
-#var <- vector_name #uncomment this line and plug in info if needed
+#SET UP COLUMN OR VECTOR
+#var <- example$column_name #uncomment this line and plug in data set and column
+#var <- vector_name #uncomment this line and plug in vector name if needed
 
 sd(var)
 mean(var)
