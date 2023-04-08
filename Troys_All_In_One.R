@@ -1,5 +1,5 @@
 # All in one Script to rip commonly used functions quickly
-
+# Created for Stats 314 at OSU
 #By Troy Lopez / TLop503 on github
 #Protected by the Gnu General Public License v3.0
 
@@ -9,11 +9,10 @@
 #library(openintro)
 #library(tidyverse)
 
-print("Please enter the number 1 for a vector and 0 for a column of a dataset")
-var = readline();
-var = as.integer(var);
-print(var)
+#CHANGE THE FOLLOWING LINE TO REFLECT YOUR DATA SET
+#If you are using a vector just use your vector name
+#If you are using a column in a larger dataset use dataset$columnname
 
-if (var == 1) {
-  
-}
+var <- loan50$loan_amount
+#var <- example$coulumn_name
+sd(var)
