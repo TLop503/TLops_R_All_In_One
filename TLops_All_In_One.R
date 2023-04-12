@@ -23,5 +23,8 @@ mean(var)
 median(var)
 IQR(var)
 quantile(var)
+#varience
+var(var)
 #The following is a table of how often each value appears in the data set
 table(var)
+
