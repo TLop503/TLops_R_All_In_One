@@ -10,7 +10,7 @@ This repo is updated almost every week, and I try to publish relevant code befor
 Please note that this code is written based on the assignments for the Spring 2023 section of ST 314 with Erin Howard. While it's likely that this will be
 relevant for other or future sections, I can't garuntee anything.
 
-Feel free to reach out if you have any questions or issues with the code via the "ISSUES" section on github.
+Feel free to reach out if you have any questions or issues with the code via the "ISSUES" or "DISCUSSIONS" sections on github.
 
 By Troy Lopez / TLop503 on github  
 Protected by the Gnu General Public License v3.0  
