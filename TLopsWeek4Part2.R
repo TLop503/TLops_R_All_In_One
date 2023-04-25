@@ -25,7 +25,3 @@ dqsd <- sd(dairy_queen$cal_fat)
 dairy_queen %>%
   filter(cal_fat > 600) %>%
   summarise(percent = n() / nrow(dairy_queen))
-
-arbys <- fastfood%>% filter(restaurant == "Arbys")
-arbMean <- mean(arbys$cal_fat)
-arbSD <- sd(arbys$cal_fat)
